@@ -5,7 +5,7 @@ export default function Home () {
   return (
     <>
       <p>ESCOLHA O SEGURO</p>
-      <h1>você seguro<span>.</span></h1>
+      <h1>você seguro<strong>.</strong></h1>
       <main>
         <div className='prata'>
           <div className='priceTitle'>
@@ -17,10 +17,10 @@ export default function Home () {
           </div>
           <div className='section'>
             <ul className='lista-prata'>
-              <li>Duas trocas por ano</li>
-              <li>Assistência Técnica</li>
-              <li>Suporte 08h às 18h</li>
-              <li>Cobertura Estadual</li>
+              <li><span>✔️</span>Duas trocas por ano </li>
+              <li><span>✔️</span>Assistência Técnica</li>
+              <li><span>✔️</span>Suporte 08h às 18h</li>
+              <li><span>✔️</span>Cobertura Estadual</li>
             </ul>
             <button className='buttonPrata'>INSCREVA-SE</button>
           </div>
@@ -39,12 +39,12 @@ export default function Home () {
 
           <div className='section'>
             <ul className='lista-ouro'>
-              <li>Cinco trocas por ano</li>
-              <li>Assistência Especial</li>
-              <li>Suporte 24h</li>
-              <li>Cobertura Nacional</li>
-              <li>Desconto em parceiros</li>
-              <li>Acesso ao clube</li>
+              <li> <span>✔️</span>Cinco trocas por ano</li>
+              <li> <span>✔️</span>Assistência Especial</li>
+              <li> <span>✔️</span>Suporte 24h</li>
+              <li> <span>✔️</span>Cobertura Nacional</li>
+              <li> <span>✔️</span>Desconto em parceiros</li>
+              <li> <span>✔️</span>Acesso ao clube</li>
             </ul>
             <button className='buttonOuro'>INSCREVA-SE</button>
           </div>

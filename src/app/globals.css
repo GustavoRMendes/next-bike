@@ -10,6 +10,14 @@ body {
   overflow-x: hidden;
   padding: .8rem;
 }
+span{
+  margin-right: 0.2rem;
+  font-size: .5rem;
+}
+
+strong{
+  color: #304c81;
+}
 
 h1 {
   color: #292929;
