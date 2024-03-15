@@ -4,7 +4,7 @@ import React from 'react'
 export default function Home () {
   return (
     <>
-      <p>ESCOLHA O SEGURO</p>
+      <p >ESCOLHA O SEGURO</p>
       <h1>você seguro<strong>.</strong></h1>
       <main>
         <div className='prata'>
@@ -51,7 +51,10 @@ export default function Home () {
         </div>
         
       </main>
-      
+      <div>
+      <p>ESCOLHA A MELHOR PARA VOCÊ</p>
+      <h1>nossas bicicletas<strong>.</strong></h1>
+      </div>
     </>
   )
 }
