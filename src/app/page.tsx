@@ -16,16 +16,18 @@ export default function Home () {
             </div>
           </div>
           <div className='section'>
-            <ul>
+            <ul className='lista-prata'>
               <li>Duas trocas por ano</li>
               <li>Assistência Técnica</li>
               <li>Suporte 08h às 18h</li>
               <li>Cobertura Estadual</li>
             </ul>
-            <button>INSCREVA-SE</button>
+            <button className='buttonPrata'>INSCREVA-SE</button>
           </div>
         </div>
 
+
+        {/* OURO */}
         <div className='ouro'>
           <div className='priceTitle' style={{ position: "relative" }}>
             <h3 className='titleOuro'>OURO</h3>
