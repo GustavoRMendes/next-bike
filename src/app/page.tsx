@@ -10,9 +10,9 @@ export default function Home () {
         <div className='prata'>
           <div className='priceTitle'>
             <h3 className='titlePrata'>PRATA</h3>
-            <div>
-              <h3>R$ 199</h3>
-              <p>mensal</p>
+            <div className='planePrice'>
+              <h3 className='price'>R$ 199</h3>
+              <p className='mensal'>mensal</p>
             </div>
           </div>
           <div className='section'>
@@ -29,16 +29,16 @@ export default function Home () {
 
         {/* OURO */}
         <div className='ouro'>
-          <div className='priceTitle' style={{ position: "relative" }}>
+          <div className='priceTitle'>
             <h3 className='titleOuro'>OURO</h3>
-            <div>
-              <h3 style={{ color: "#E1E1E1", position: 'absolute', right: "40px" }}>R$ 299</h3>
-              <p style={{ color: '#B0B0B0', fontSize: "12px", position: 'absolute', right: "40px", top: '25px' }}>mensal</p>
+            <div className='planePrice2'>
+              <h3 className='priceOuro'>R$ 299</h3>
+              <p className='mensal'>mensal</p>
             </div>
           </div>
 
           <div className='section'>
-            <ul>
+            <ul className='lista-ouro'>
               <li>Cinco trocas por ano</li>
               <li>Assistência Especial</li>
               <li>Suporte 24h</li>
@@ -46,7 +46,7 @@ export default function Home () {
               <li>Desconto em parceiros</li>
               <li>Acesso ao clube</li>
             </ul>
-            <button>INSCREVA-SE</button>
+            <button className='buttonOuro'>INSCREVA-SE</button>
           </div>
         </div>
       </main>
