@@ -9,6 +9,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  padding: 1rem;
 }
 
 a {
@@ -16,3 +17,14 @@ a {
   text-decoration: none;
 }
 
+h1{
+  color:#292929 ;
+  font-family: var(--font-title);
+  letter-spacing: 1.2px;  
+}
+p{
+  color: #525252;
+}
+span{
+  color:#97ACD3 ;
+}

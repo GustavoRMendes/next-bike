@@ -1,10 +1,11 @@
-import { font_title } from '@/font'
+import { font_body, font_title } from '@/font'
 import React from 'react'
 
-export default function Home() {
+export default function Home () {
   return (
     <>
-      <h1 className={font_title.variable}>Home</h1>
+      <p>ESCOLHA O SEGURO</p>
+      <h1>você seguro<span>.</span></h1>
     </>
   )
 }

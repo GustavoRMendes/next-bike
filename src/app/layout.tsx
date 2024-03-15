@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { font_body } from "@/font";
+import { font_body, font_title } from "@/font";
 
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={font_body.variable}>
+      <body className={`${font_body.variable} ${font_body.className} ${font_title.variable}`}>
         {children}
       </body>
     </html>
