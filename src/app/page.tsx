@@ -49,7 +49,9 @@ export default function Home () {
             <button className='buttonOuro'>INSCREVA-SE</button>
           </div>
         </div>
+        
       </main>
+      
     </>
   )
 }

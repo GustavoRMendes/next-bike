@@ -129,6 +129,11 @@ button {
   color: #0c1932;
   cursor: pointer;
 }
+button:hover{
+  background-color: #1e3f7c;
+  color: white;
+  transition: .3s;
+}
 
 .priceTitle {
   display: flex;
