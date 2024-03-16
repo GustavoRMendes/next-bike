@@ -53,10 +53,12 @@ span {
 }
 main {
   margin-top: 5rem;
+  margin-bottom: 4rem;
   display: flex;
   width: 100vw;
   gap: 1rem;
 }
+
 .titlePrata {
   color: #304c81;
   font-size: 1.5rem;

@@ -1,4 +1,5 @@
 import { font_body, font_title } from '@/font'
+import Image from 'next/image'
 import React from 'react'
 
 export default function Home () {
@@ -49,12 +50,24 @@ export default function Home () {
             <button className='buttonOuro'>INSCREVA-SE</button>
           </div>
         </div>
-        
+
       </main>
-      <div>
-      <p>ESCOLHA A MELHOR PARA VOCÊ</p>
-      <h1>nossas bicicletas<strong>.</strong></h1>
-      </div>
+      <br /> <br />
+
+      <main>
+          <div>
+            <p className='main2'>ESCOLHA A MELHOR PARA VOCÊ</p>
+            <h1 className='main2'>nossas bicicletas<strong>.</strong></h1> <br/>
+          <Image
+            src='/bike.jpg'
+            alt='bike'
+            width={300}
+            height={200}
+            sizes='100vw'
+          />
+        </div>
+      </main>
+
     </>
   )
 }
