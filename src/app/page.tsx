@@ -66,6 +66,9 @@ export default function Home () {
             sizes='100vw'
           />
         </div>
+        <div>
+          Nebula 
+        </div>
       </main>
 
     </>
