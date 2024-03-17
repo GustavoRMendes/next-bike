@@ -70,7 +70,7 @@ export default function Home () {
             Nebula Cosmic
           </h2>
           <p style={{color:"#3D3D3D"}}>Quando iniciamos a Bikcraft queriamos apenas <br/> um produto que adoraríamos utilizar. Eramos <br/> apaixonados por pedalar e também criar.</p><br/>
-          <button>MAIS SOBRE</button>
+          <button>MAIS SOBRE   → </button>
         </div>
       </main>
 
