@@ -7,7 +7,7 @@ export default function Home () {
     <>
       <p >ESCOLHA O SEGURO</p>
       <h1>você seguro<strong>.</strong></h1>
-      <main>
+      <main style={{gap:'3rem'}}>
         <div className='prata'>
           <div className='priceTitle'>
             <h3 className='titlePrata'>PRATA</h3>
