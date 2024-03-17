@@ -53,11 +53,10 @@ export default function Home () {
 
       </main>
       <br /> <br />
-
+      <p className='main2'>ESCOLHA A MELHOR PARA VOCÊ</p>
+      <h1 className='main2'>nossas bicicletas<strong>.</strong></h1> 
       <main>
           <div>
-            <p className='main2'>ESCOLHA A MELHOR PARA VOCÊ</p>
-            <h1 className='main2'>nossas bicicletas<strong>.</strong></h1> <br/>
           <Image
             src='/bike.jpg'
             alt='bike'
@@ -67,7 +66,9 @@ export default function Home () {
           />
         </div>
         <div>
-          Nebula 
+          <h2 className='nebula'>
+            Nebula Cosmic
+          </h2>
         </div>
       </main>
 

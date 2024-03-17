@@ -52,7 +52,7 @@ span {
   border-radius: 4px;
 }
 main {
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
   display: flex;
   width: 100vw;
@@ -142,4 +142,8 @@ button:hover{
   display: flex;
   gap: 8rem;
   text-align: right;
+}
+.nebula{
+  color:#292929;
+  margin-left: 20px;
 }
