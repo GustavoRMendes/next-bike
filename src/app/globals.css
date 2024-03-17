@@ -145,5 +145,9 @@ button:hover{
 }
 .nebula{
   color:#292929;
+  margin-bottom: 1.3rem;
+}
+
+.description{
   margin-left: 20px;
 }
