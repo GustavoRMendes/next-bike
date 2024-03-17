@@ -69,7 +69,8 @@ export default function Home () {
           <h2 className='nebula'>
             Nebula Cosmic
           </h2>
-          <p style={{color:"#3D3D3D",fontWeight:'100'}}>Quando iniciamos a Bikcraft queriamos apenas <br/> um produto que adoraríamos utilizar. Eramos <br/> apaixonados por pedalar e também criar.</p>
+          <p style={{color:"#3D3D3D"}}>Quando iniciamos a Bikcraft queriamos apenas <br/> um produto que adoraríamos utilizar. Eramos <br/> apaixonados por pedalar e também criar.</p><br/>
+          <button>MAIS SOBRE</button>
         </div>
       </main>
 
